@@ -1,0 +1,25 @@
+{
+  "name": "canvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "canvas.js",
+  "scripts": {
+    "dev": "rollup -w -c build/rollup.dev.js",
+    "build": "rollup -c build/rollup.build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "rollup": "^2.42.4",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-copy-assets": "^2.0.3",
+    "rollup-plugin-generate-html-template": "^1.7.0",
+    "rollup-plugin-image": "^1.0.2",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}

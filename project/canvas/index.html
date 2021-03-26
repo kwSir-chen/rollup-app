@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="./canvas.js"></script> -->
+    <style>
+        .main{
+        }
+        .assist-canvas{
+            display: none;
+        }
+        #canvas-wrapper {
+            position: relative;
+            width: 80vw;
+            height: calc(80vw * 0.5624);
+            max-width: 320px;
+            max-height: calc(320px * 0.5624);
+        }
+        #test-canvas{
+            /* width: 20vw;
+            height: calc(20vw * 0.5624); */
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="canvas-wrapper">
+            <canvas id="test-canvas">
+                浏览器不支持canvas
+            </canvas>
+        </div>
+        <br/>
+        <button id="save-btn">save</button>
+    </div>
+    <div class="assist-canvas">
+        <a href="" download="xxx.png" id="save-href"></a>
+        <img src="./assets/images/bg1.png" alt="" id="canvas-bg">
+    </div>
+</body>
+</html>
